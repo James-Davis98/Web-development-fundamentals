@@ -1,0 +1,38 @@
+h1 { color : #ffff33; 
+	background : #3399ff;
+	font-family: georgia;
+	font-size: 300%;
+}
+
+h2 { color : blue; 
+	font-family : verdana;
+	font-size : 150%;
+}
+
+p { color : black; 
+	font-family : arial;
+	font-size : 100%;
+}
+
+* { margin: 0; padding : 0 ; text-align : center }
+
+html, body { height : 100%; }
+
+#wrapper
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px;
+	/* bottom margin is the nagative value of the footer's height */
+}
+
+#hdr { height: 60px; background : aqua }
+
+#ftr { height: 30px; background : aqua }
+
+#nav { float : left ; width : 1000px ; background : yellow }
+
+#ads { float : right ; width : 100px ; background : fuchsia }
+
+#txt { margin : 0 100px ; background : gainsboro }
